@@ -1,0 +1,70 @@
+/* ==============================
+   RESET DEFAULT STYLES
+============================== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Ensures padding and border are included in width */
+}
+
+/* ==============================
+   BODY STYLING
+============================== */
+body {
+    font-family: Arial, Helvetica, sans-serif; /* Modern sans-serif font */
+    background-color: rgb(0, 0, 0);           /* Black background */
+    display: flex;                             /* Flex to center login box */
+    justify-content: center;                   /* Horizontal center */
+    align-items: center;                       /* Vertical center */
+    height: 100vh;                             /* Full viewport height */
+}
+
+/* ==============================
+   LOGIN BOX
+============================== */
+.login-box {
+    background-color: white;                   /* White box */
+    padding: 50px;                             /* Inner spacing */
+    border-radius: 20px;                       /* Rounded corners */
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5); /* Subtle glow */
+    width: 300px;                              /* Fixed width */
+}
+
+/* LOGIN HEADER */
+.login-box h1 {
+    margin-bottom: 20px;
+    text-align: center;
+    color: black;
+}
+
+/* ==============================
+   INPUT FIELDS
+============================== */
+.user_data {
+    width: 100%;                              /* Full width */
+    padding: 12px 15px;                       /* Inner spacing */
+    margin: 10px 0;                            /* Spacing between fields */
+    border: 1px solid #ccc;                    /* Light gray border */
+    border-radius: 5px;                        /* Slightly rounded */
+}
+
+/* ==============================
+   LOGIN BUTTON
+============================== */
+.btn {
+    width: 100%;                              /* Full width button */
+    padding: 12px;                             /* Vertical padding */
+    background-color: rgb(255, 0, 174);       /* Pink / Magenta */
+    border: 1px solid #000000;                 /* Black border */
+    border-radius: 5px;                        /* Rounded corners */
+    color: white;                              /* Text color */
+    font-size: 16px;                           /* Font size */
+    cursor: pointer;                           /* Pointer on hover */
+    transition: background 0.3s;               /* Smooth hover effect */
+}
+
+/* BUTTON HOVER EFFECT */
+.btn:hover {
+    background-color: rgb(206, 89, 161);      /* Darker pink on hover */
+    color: white;
+}
